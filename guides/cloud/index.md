@@ -23,20 +23,6 @@ For cloud-hosted web programming and services, refer to the [Web Programming Gui
 * auto-gen TOC:
 {:toc}
 
-### Integrated Stacks
-
-#### SAFE Stack
-{: #safe-stack  .anchor }
-
-![logo](../../images/thumbs/safestack.png)&nbsp;[SAFE Stack](https://safe-stack.github.io/) is an end-to-end, functional-first stack for cloud-ready web development that
-emphasizes type-safe programming. It is an application development stack that brings several technologies together into a single,
-coherent stack for type-safe, flexible, web-enabled applications that can be written almost entirely in F#.
-
-* [Getting Started](https://safe-stack.github.io/docs/quickstart/)
-* [Docs](https://safe-stack.github.io/docs/intro/)
-* [Dojo](https://github.com/CompositionalIT/SAFE-Dojo/)
-* [Support](https://safe-stack.github.io/docs/support/)
-
 ### Cloud Platforms
 
 #### [Microsoft Azure](https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-on-azure/)
@@ -56,9 +42,10 @@ Some additional resources for using F# and .NET on Amazon's AWS service:
 
  * [FSharp.AWS.DynamoDB](https://github.com/fsprojects/FSharp.AWS.DynamoDB#fsharpawsdynamodb) - an F# wrapper over the standard Amazon.DynamoDB library which allows you to represent table items using F# records and perform updates, queries and scans using F# quotation expressions
  
-### Scalable Data Programming
+### Scalable Data Programming and Messaging
 
-F# can be used with many scalable data-storage systems. Some are accessible via the Cloud SDKs outlined above.
+F# can be used with many scalable data-storage and messaging systems. Some are accessible via the Cloud SDKs outlined above.
+This section lists resources for some of the systems that can be used with F#.
 
 #### Apache Spark
 
@@ -67,12 +54,6 @@ F# can be used with many scalable data-storage systems. Some are accessible via 
 * F# samples are included in the [GitHub Repo](https://github.com/dotnet/spark#samples)
 
 * [Getting Started with Data Analytics & Machine Learning in F#](https://www.youtube.com/watch?v=ciBtKRZMIaU)
-
-### Scalable Distributed Programming and Messaging
-
-Distributed compute problems require a wide range of communication capabilities, ranging
-from simple command line argument passing to heavily optimized, low-latency interprocess
-communications. This section lists a wide range of communication libraries available to F#.
 
 #### Akka.NET
 
@@ -84,7 +65,11 @@ The [Orleans](https://dotnet.github.io/orleans/) framework provides a straightfo
 
 #### Kafka
 
+Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.
+
 * [Kafunk](https://jet.github.io/kafunk/) - An F# Kafka client.
+
+* [FsKafka](https://github.com/jet/FsKafka) - Minimal F# wrappers for Kafka.
 
 * [anaerobic](https://github.com/anaerobic/fsharp-kafka-simple) - A simple implementation of a Kafka producer and consumer in F#.
 
